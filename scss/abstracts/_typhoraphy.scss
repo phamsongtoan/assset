@@ -1,0 +1,139 @@
+// .heading-stroke-3 {
+//     line-height: 3rem;
+//     font-size: $fs-larger;
+//     font-style: italic;
+//     font-weight: bold;
+//     // color: black;
+//     -webkit-text-fill-color: transparent;
+//     -webkit-text-stroke-width: 1px;
+//     -webkit-text-stroke-color: $c-primary;
+//     &-white {
+//         line-height: 3rem;
+//         font-size: $fs-larger;
+//         font-style: italic;
+//         font-weight: bold;
+//         // color: black;
+//         -webkit-text-fill-color: transparent;
+//         -webkit-text-stroke-width: 1px;
+//         -webkit-text-stroke-color: #fff;
+//     }
+// }
+// .heading-stroke-4-primary {
+//     -webkit-text-fill-color: $c-primary;
+//     -webkit-text-stroke-width: 1px;
+//     -webkit-text-stroke-color: $c-primary;
+//     color: $c-icon;
+//     font-weight: bold;
+//     font-size: 1.6rem;
+//     font-family: $font-default;
+//     letter-spacing: 0.1rem;
+// }
+// .heading-stroke-4-red {
+//     -webkit-text-fill-color: $c-icon;
+//     -webkit-text-stroke-width: 1px;
+//     -webkit-text-stroke-color: $c-icon;
+//     color: $c-icon;
+//     font-weight: bold;
+//     font-size: $fs-primary;
+//     font-family: $font-default;
+//     letter-spacing: 0.1rem;
+// }
+// .heading-stroke-1 {
+//     -webkit-text-fill-color: $c-primary;
+//     -webkit-text-stroke-width: 4px;
+//     -webkit-text-stroke-color: $c-primary;
+//     font-weight: bold;
+//     font-size: 4rem;
+//     color: $c-primary;
+//     font-family: $font-default;
+//     letter-spacing: 1.25rem;
+//     &-blue {
+//         -webkit-text-fill-color: #fff;
+//         -webkit-text-stroke-width: 4px;
+//         -webkit-text-stroke-color: #fff;
+//         color: #fff;
+//         font-weight: bold;
+//         font-size: 4rem;
+//         font-family: $font-default;
+//         letter-spacing: 0.75rem;
+//     }
+// }
+.heading-1 {
+    font-weight: bold;
+    font-size: 3.6rem;
+    letter-spacing: 0.1rem;
+    color: $c-font;
+    margin: 0;
+    font-family: $font-default;
+}
+
+.heading-2 {
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    font-family: $font-default;
+}
+
+.heading-3 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    color: $c-font;
+    line-height: 3.4rem;
+    font-family: $font-default;
+}
+
+.heading-4 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.8rem;
+    color: $c-font;
+    font-family: $font-default;
+}
+
+.heading-5 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin: 0;
+    color: $c-font;
+    font-family: $font-default;
+}
+
+// .heading-stroke-2-red {
+//     -webkit-text-fill-color: $c-icon;
+//     -webkit-text-stroke-width: 2px;
+//     -webkit-text-stroke-color: $c-icon;
+//     color: $c-icon;
+//     font-weight: bold;
+//     font-size: 2rem;
+//     font-family: $font-default;
+//     letter-spacing: 0.1rem;
+// }
+// .heading-stroke-2-blue {
+//     -webkit-text-fill-color: $c-primary;
+//     -webkit-text-stroke-width: 2px;
+//     -webkit-text-stroke-color: $c-primary;
+//     color: $c-primary;
+//     font-weight: bold;
+//     font-size: 2rem;
+//     font-family: $font-default;
+//     letter-spacing: 0.1rem;
+// }
+// .heading-stroke-2-red {
+//     -webkit-text-fill-color: $c-icon;
+//     -webkit-text-stroke-width: 2px;
+//     -webkit-text-stroke-color: $c-icon;
+//     color: $c-icon;
+//     font-weight: bold;
+//     font-size: 2rem;
+//     font-family: $font-default;
+//     letter-spacing: 0.1rem;
+// }
+a {
+    color: $c-font;
+    &:hover {
+        text-decoration: none;
+        color: $c-primary;
+    }
+}

@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    // overflow-x: hidden;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: $font-primary;
+    font-size: $fs-primary;
+    color: $c-primary;
+    font-weight: 300;
+    position: relative;
+    // overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 50%;
+    }
+}

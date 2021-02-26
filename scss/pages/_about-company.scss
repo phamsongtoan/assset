@@ -1,0 +1,55 @@
+.body-about {
+    &__inner {
+        .about-title {
+            color: $c-font;
+            width: 100%;
+            max-width: 75%;
+            h2 {
+                margin-bottom: 5rem;
+            }
+            p {
+                font-size: 1.6rem;
+                color: $c-font;
+                font-weight: 3rem;
+            }
+        }
+        .about-map {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.body-about-list {
+    background: #f4f5f9;
+    &__inner {
+        .about-list {
+            border: 1px solid rgba($c-font-down, 0.2);
+            padding: 2rem;
+            background: #fff;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .body-about {
+        &__inner {
+            .about-title {
+                max-width: 100%;
+                h2 {
+                    margin-bottom: 2rem;
+                }
+                p {
+                    font-size: 2rem;
+                    font-weight: 3rem;
+                }
+            }
+            .about-map {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

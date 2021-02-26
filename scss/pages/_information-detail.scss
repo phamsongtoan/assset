@@ -1,0 +1,358 @@
+.body-information-deital {
+    .information-deital__title {
+        text-align: center;
+        background-color: #f3f5f8;
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            color: $c-font;
+        }
+    }
+    .information-deital__post {
+        &--inner {
+            .post-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &-left {
+                    display: flex;
+                    align-items: center;
+                    &__logo {
+                        margin-right: 1rem;
+                        height: 4rem;
+                        width: 4rem;
+                        a {
+                            img {
+                                border-radius: 50%;
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+                &-right {
+                    span {
+                        font-size: $fs-primary;
+                    }
+                }
+            }
+            .post-banner {
+                width: 100%;
+                height: auto;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .post-list-content {
+                border: 1px solid rgba(0, 0, 0, .2);
+                h3 {
+                    text-align: center;
+                    background: #1871c9;
+                    color: #fff;
+                    font-size: 2.7rem;
+                }
+                ol {
+                    padding-left: 4rem;
+                    padding-bottom: 1.5rem;
+                    li {
+                        &::marker {
+                            font-size: $fs-default;
+                        }
+                        a {
+                            color: $c-primary;
+                            font-size: $fs-default;
+                        }
+                    }
+                }
+            }
+            p {
+                font-size: $fs-default;
+                color: $c-font;
+                span {
+                    a {
+                        color: #4990e2;
+                    }
+                }
+            }
+            .button-contact {
+                box-shadow: 2px 2px 8px #888888;
+            }
+            .post-descreption {
+                .heading-3 {
+                    &:hover {
+                        a {
+                            color: $c-primary;
+                        }
+                    }
+                    a {
+                        font-size: 2.6rem;
+                        color: #4990e2;
+                    }
+                }
+                ul {
+                    padding-left: 4rem;
+                    li {
+                        color: $c-font;
+                        p {
+                            font-weight: 300;
+                            color: $c-font;
+                            font-size: $fs-default;
+                            margin: 0;
+                            span {
+                                a {
+                                    font-weight: 400;
+                                    color: $c-primary;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .post-reality {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                .heading-4 {
+                    font-weight: 300;
+                    span {
+                        a {
+                            color: #4990e2;
+                        }
+                    }
+                }
+            }
+            .post-introduce-district {
+                background-color: #eeeeee;
+                p {
+                    font-weight: 400;
+                }
+            }
+            .seemore-project {
+                &:hover {
+                    a {
+                        margin: 0;
+                        color: #ed7b2d;
+                    }
+                }
+                a {
+                    font-size: 1.6rem;
+                    color: #4990e2;
+                }
+            }
+            .post-document {
+                a {
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+            .post-relative {
+                ul {
+                    padding-left: 4rem;
+                    li {
+                        &::marker {
+                            font-size: 1.2rem;
+                            color: $c-font;
+                        }
+                        font-size: $fs-default;
+                        a {
+                            color: #4990e2;
+                        }
+                        &:hover {
+                            a {
+                                margin: 0;
+                                color: #ed7b2d;
+                            }
+                        }
+                    }
+                }
+            }
+            .post-list-main {
+                .list-all {
+                    background: #eee;
+                    &__img {
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    &__content {
+                        h5 {
+                            font-size: 1.6rem;
+                        }
+                        p {
+                            font-size: $fs-primary;
+                        }
+                    }
+                }
+            }
+            .post-hastag {
+                padding: 5rem 0;
+                ul {
+                    li {
+                        margin-right: 2rem;
+                        a {
+                            font-size: $fs-primary;
+                            padding: 0.75rem 2rem;
+                            margin: 0;
+                            font-weight: 200;
+                            background: #f3f4f7;
+                        }
+                    }
+                }
+            }
+            .post-form {
+                background: #f3f4f7;
+                padding: 5rem 0;
+                display: flex;
+                justify-content: center;
+                &__inner {
+                    width: 49rem;
+                }
+                &__img {
+                    img {
+                        width: 100%;
+                    }
+                }
+                &__content {
+                    h3 {
+                        font-size: 2.4rem;
+                    }
+                    p {
+                        font-size: $fs-primary;
+                    }
+                }
+                .input-group {
+                    height: 5rem;
+                    box-shadow: 0 4px 2px 8px rgba(#eee, 0.6);
+                    .form-control {
+                        height: 100%;
+                        &:focus {
+                            border: 1px solid #ced4da;
+                        }
+                        &::placeholder {
+                            font-size: 1.6rem;
+                            color: $c-font-down;
+                            font-weight: 300;
+                        }
+                    }
+                    &-append {
+                        height: 100%;
+                        .button-contact {
+                            height: 100%;
+                            padding: 1rem 2rem!important;
+                            border-radius: 2px!important;
+                            display: flex;
+                            align-items: center;
+                            a {
+                                font-size: 1.6rem;
+                            }
+                            &:hover {
+                                background: $c-primary!important;
+                                opacity: 0.9;
+                                a {
+                                    color: #fff!important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .post-comment {
+                margin-top: 5rem;
+                .form-group {
+                    label {
+                        font-size: 2rem;
+                        font-weight: bold;
+                    }
+                    .form-control {
+                        font-size: 1.6rem;
+                        &:focus {
+                            border: 1px solid #ced4da;
+                        }
+                    }
+                }
+            }
+            .post-slick {
+                &__inner {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    p {
+                        a {
+                            font-size: $fs-small;
+                        }
+                    }
+                }
+                h5 {
+                    a {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+    .information-deital-relative {
+        background: #f3f5f8;
+        &__inner {
+            h3 {
+                font-size: 2.4rem;
+            }
+            .detail-relative {
+                .banner {
+                    height: 20rem;
+                    width: 100%;
+                    a {
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+                .title {
+                    a {
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                    }
+                }
+                p {
+                    font-size: $fs-primary;
+                    color: rgba(79, 79, 79, .6);
+                    margin: 0;
+                    span {
+                        a {
+                            color: $c-hotline;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .information-deital-relative {
+        background: #f3f5f8;
+        &__inner {
+            .detail-relative {
+                .banner {
+                    height: auto!important;
+                }
+            }
+        }
+    }
+    .post-form {
+        .input-group {
+            box-shadow: none!important;
+            .button-contact {
+                box-shadow: none!important;
+            }
+        }
+    }
+}

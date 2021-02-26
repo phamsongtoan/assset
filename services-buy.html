@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blue Sky</title>
+    <!-- <link rel="stylesheet" href="font/stylesheet.css" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fullpage.css" />
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+    <header class="header-main header-all">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./images/logoblue.jpg" alt="logo">
+                </a>
+                <div class="group-cover">
+                    <div class="input-group group-cover__inner">
+                        <div class="input-group-prepend">
+                            <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mua nhà</button>
+                            <div class="dropdown-menu">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="#">Thuê nhà</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dropdown-item" href="#">Dự án</a>
+                                    </li>
+                                    <!-- <div role="separator" class="dropdown-divider"></div> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class=icon-search>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Nhập địa điểm, khu dân cư, tòa nhà" aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon burger">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        <i class="fa fa-times d-none" aria-hidden="true"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link nav-phone " href="#">
+                                1800 234 546
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-1" href="#">
+                                <h5 class="mb-0"> Mua</h5>
+                            </a>
+                            <div class="nav-hiden">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="./buy.html">Tất cả nhà bán
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Căn hộ
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Shop house
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Nhà phố
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Biệt thự
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Đất nền
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="divide"></div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Gặp chuyên gia tư vấn
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Khu dân cư
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Mua với Blue Sky
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./services-why.html"> 
+                            Vì sao chọn Blue Sky?
+                            </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a class="nav-link nav-link-2" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
+                                <h5 class="mb-0"> Mua</h5>
+                            </a>
+                            <div class="collapse" id="collapse1">
+                                <div class=" card-body">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="./buy.html">Tất cả nhà bán
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Căn hộ
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Shop house
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Nhà phố
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Biệt thự
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Đất nền
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Gặp chuyên gia tư vấn
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Khu dân cư
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Mua với Blue Sky
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Vì sao chọn Blue Sky?
+                                                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-1" href="#">
+                                <h5 class="mb-0"> Thuê</h5>
+                            </a>
+                            <a class="nav-link nav-link-2" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
+                                <h5 class="mb-0"> Thuê</h5>
+                            </a>
+                            <div class="nav-hiden">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="./buy.html">Tất cả nhà bán
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Căn hộ
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Shop house
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Nhà phố
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Biệt thự
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Đất nền
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="divide"></div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Gặp chuyên gia tư vấn
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Khu dân cư
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Mua với Blue Sky
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./services-why.html"> 
+                            Vì sao chọn Blue Sky?
+                            </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="collapse" id="collapse2">
+                                <div class="card-body">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="./buy.html">Tất cả nhà bán
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Căn hộ
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Shop house
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Nhà phố
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Biệt thự
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Đất nền
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Gặp chuyên gia tư vấn
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Khu dân cư
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Mua với Blue Sky
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Vì sao chọn Blue Sky?
+                                                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-1" href="#">
+                                <h5 class="mb-0"> Dự án</h5>
+                            </a>
+                            <a class="nav-link nav-link-2" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3">
+                                <h5 class="mb-0"> Dự án</h5>
+                            </a>
+                            <div class="nav-hiden">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="./all-project.html">Tất cả dự án
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Dứ án quận 2
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Dứ án quận 4
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Dứ án quận 7
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Dứ án quận 9
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Dứ án quận Bình Thạnh
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="divide"></div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Gặp chuyên gia tư vấn
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Danh mục chủ đầu tư                                           </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="collapse" id="collapse3">
+                                <div class="card-body">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="./all-project.html">Tất cả dự án
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Dứ án quận 2
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Dứ án quận 4
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Dứ án quận 7
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Dứ án quận 9
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Dứ án quận Bình Thạnh
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">
+                                                <div class="divide"></div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Gặp chuyên gia tư vấn
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Danh mục chủ đầu tư                                           </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-1" href="#">
+                                <h5 class="mb-0"> Bán và cho thuê</h5>
+                            </a>
+                            <a class="nav-link nav-link-2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <h5 class="mb-0"> Bán và cho thuê</h5>
+                            </a>
+                            <div class="nav-hiden">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="./services-sell.html">Đăng bán
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="divide"></div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Gặp chuyên gia tư vấn
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Blue Sky photo
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Vì sao chọn Blue Sky
+                                            </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="collapse" id="collapseExample">
+                                <div class="card-body">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="./services-sell.html">Đăng bán
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">
+                                                <div class="divide"></div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Gặp chuyên gia tư vấn
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Blue Sky photo
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="./services-why.html">Vì sao chọn Blue Sky
+                                                </a>
+                                        </li>
+                        </li>
+                        </ul>
+                        </div>
+                        </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-1" href="#">
+                                <h5 class="mb-0"> Thông tin</h5>
+                            </a>
+                            <a class="nav-link nav-link-2" data-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse4">
+                                <h5 class="mb-0"> Thông tin</h5>
+                            </a>
+                            <div class="nav-hiden">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="./information.html">Blog
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Thông tin thị trường
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Báo cáo & Phân tích
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Hướng dẫn mua nhà
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Hướng dẫn bán nhà
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Tải tài liệu
+                                            </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Trung tâm trợ giúp
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Khu dân cư
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">Mua với Blue Sky
+                                            </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./services-why.html"> 
+                            Vì sao chọn Blue Sky?
+                            </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="collapse" id="collapse4">
+                                <div class="card-body">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="./information.html">Blog
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Thông tin thị trường
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Báo cáo & Phân tích
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Hướng dẫn mua nhà
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Hướng dẫn bán nhà
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Tải tài liệu
+                                                </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Trung tâm trợ giúp
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Khu dân cư
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Mua với Blue Sky
+                                                </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">Vì sao chọn Blue Sky?
+                                                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item nav-special" data-toggle="modal" data-target="#exampleModalCenterlogin">
+                            <a class="nav-link " href="#">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item nav-final">
+                            <a class="nav-link " href="./services-sell.html">Đăng tin nhà đất</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="header-services">
+        <div class="container-fluid">
+            <div class="header-services-inner">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="./services-all.html">Tất cả dịch vụ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services-why.html"> 
+                            Vì sao chọn Blue Sky?
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./services-sell.html">Bán với Blue Sky
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./services-buy.html">Mua với Blue Sky
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Thuê với Blue Sky
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./staff.html"> 
+                            Chuyên viên Blue Sky
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services-take-picture.html"> 
+                            Chụp hình
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services-threed.html">Thực tế ảo
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> 
+                            Hành chính
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bảng điều khiển
+                        </a>
+                    </li>
+
+                </ul>
+                <div class="button-contact">
+                    <a href="#">Đăng ký ngay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-services-wrap">
+        <div class="banner banner-hilight">
+            <div class="banner-services banner-hilight-services">
+            </div>
+            <div class="banner-services-content banner-content">
+                <div class="container">
+                    <div class="banner-services-content__inner">
+                        <h1 class="heading-1">Mua nhà ưng ý với giá hợp lý</h1>
+                        <h3 class="heading-3 mb-25px">
+                            Tìm nhà dễ dàng, mua nhanh chóng, được hỗ trợ mọi lúc bởi chuyên viên.
+                        </h3>
+                        <div class="button-contact" data-toggle="modal" data-target="#exampleModalCentersbuy">
+                            <a href="#">Liên hệ ngay</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-form">
+                    <div class="container">
+                        <div class="services-form__inner">
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <div class="row">
+                                        <div class="col-md-6 pr-md-3">
+                                            <div class="dropdown dropdown-1 show">
+                                                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <h5>Loại nhà đất</h5>
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <a class="dropdown-item" href="#">Căn hộ</a>
+                                                    <a class="dropdown-item" href="#">Penhouse</a>
+                                                    <a class="dropdown-item" href="#">Shophouse</a>
+                                                    <a class="dropdown-item" href="#">Officetel</a>
+                                                    <a class="dropdown-item" href="#">Nhà phố</a>
+                                                    <a class="dropdown-item" href="#">Biệt thự</a>
+                                                    <a class="dropdown-item" href="#">Văn phòng</a>
+                                                    <a class="dropdown-item" href="#">Mặt bằng</a>
+                                                    <a class="dropdown-item" href="#">Đất nền</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 pl-md-0 pr-md-3 ">
+                                            <div class="dropdown dropdown-2 show">
+                                                <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <h5>Số phòng ngủ</h5>
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <a class="dropdown-item" href="#">Căn hộ</a>
+                                                    <a class="dropdown-item" href="#">Penhouse</a>
+                                                    <a class="dropdown-item" href="#">Shophouse</a>
+                                                    <a class="dropdown-item" href="#">Officetel</a>
+                                                    <a class="dropdown-item" href="#">Nhà phố</a>
+                                                    <a class="dropdown-item" href="#">Biệt thự</a>
+                                                    <a class="dropdown-item" href="#">Văn phòng</a>
+                                                    <a class="dropdown-item" href="#">Mặt bằng</a>
+                                                    <a class="dropdown-item" href="#">Đất nền</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row h-100">
+                                        <div class="col-md-8 pl-md-0 pr-md-3">
+                                            <div class="form-group">
+                                                <!-- <label for="inputAddress"></label> -->
+                                                <input type="text" class="form-control" id="inputAddress" placeholder="Địa điểm, dự án bạn muốn mua?">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 px-md-0">
+                                            <div class=" d-flex justify-content-center h-100">
+                                                <div class="button-contact">
+                                                    <a href="#">Tìm ngay</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="body-services">
+        <div class="services-dashboard pb-45px services-buy-dashboard text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="services-dashboard__inner">
+                            <img src="./images/all-service/icon_x2.svg" class="mb-25px" alt="icon_x2">
+                            <h3 class="heading-3 mb-3">
+                                Dịch vụ nhanh X2 so với thị trường
+                            </h3>
+                            <p class="my-0">
+                                80% bất động sản độc quyền tại Blue Sky được bán trong 90 ngày
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services-dashboard__inner">
+                            <img src="./images/all-service/icon_dashboard.svg" class="mb-25px" alt="icon_x2">
+                            <h3 class="heading-3 mb-3">
+                                Bảng điều khiển cho người bán
+                            </h3>
+                            <p class="my-0">
+                                Người bán có thể theo dõi tiến độ bán nhà trực tuyến (Độc quyền chỉ có tại Blue Sky)
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services-dashboard__inner">
+                            <img src="./images/all-service/icon_service.svg" class="mb-25px" alt="icon_x2">
+                            <h3 class="heading-3 mb-3">
+                                Trải nghiệm hoàn hảo
+                            </h3>
+                            <p class="my-0">
+                                Giúp quá trình bán nhà thuận tiện, dễ dàng và nhanh chóng
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="services-support pt-60px">
+            <div class="container">
+                <div class="services-support-inner">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="support-content ">
+                                <h1 class="heading-1 mb-25px ">Được đồng hành hỗ trợ mọi thứ</h1>
+                                <p>
+                                    Chuyên viên của Blue Sky sẽ hướng dẫn và hỗ trợ bạn trong suốt quá trình mua nhà. Tư vấn kỹ càng cho bạn về biến động giá cả thị trường, thông tin quy hoạch, các tiện ích và cư dân ở những khu vực bạn quan tâm và đồng thời đưa ra lời khuyên hợp lý cũng
+                                    như gợi ý những căn giá tốt phù hợp với bạn nhất. Hoàn toàn miễn phí !
+                                </p>
+
+                                <div class="button-contact mt-30px">
+                                    <a href="#">
+                                        Liên hệ ngay
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="support-img">
+                                <img src="./images/all-service/service-girl.png" alt="service girl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-support-2 pt-60px pb-60px">
+            <div class="container">
+                <div class="services-support-2-inner">
+                    <div class="row">
+                        <div class="col-md-6 order-md-2">
+                            <div class="support-content text-align-end">
+                                <h1 class="heading-1 mb-25px">Thương lượng dễ dàng mức giá hợp lý</h1>
+                                <div class="support-list">
+                                    <h5>
+                                        Đội ngũ chuyên viên chuyên nghiệp từ Blue Sky sẽ:
+                                    </h5>
+                                    <ul>
+                                        <li>
+                                            Chỉ ra những ưu điểm và nhược điểm của căn nhà.
+                                        </li>
+                                        <li>
+                                            Cho bạn xem giá giao dịch gần đây của các căn lân cận.
+                                        </li>
+                                        <li>
+                                            Giúp bạn tìm hiểu rõ thông tin chủ nhà.
+                                        </li>
+                                        <li>
+                                            Đề xuất giúp bạn một mức giá có thể chấp nhận được.
+                                        </li>
+                                        <li>
+                                            Ứng dụng công nghệ để đẩy nhanh quá trình thương lượng.
+                                        </li>
+                                        <li>
+                                            Cùng bạn thuyết phục chủ nhà mức giá mong muốn.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="button-contact mt-30px">
+                                    <a href="#">
+                                        Liên hệ ngay
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-md-1">
+                            <div class="support-img">
+                                <img src="./images/all-service/for-sale.jpg" alt="service girl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="services-support-3 services-support pt-60px pb-60px">
+            <div class="container">
+                <div class="services-support-inner">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="support-content">
+                                <h1 class="heading-1 mb-25px">Thông tin thật, xem nhà ngay</h1>
+                                <p>
+                                    Danh mục nhà đất được xác thực với thông tin thật được cập nhật liên tục, bạn luôn nắm được thông tin mới nhất để chọn căn ưng ý nhất đúng thời điểm. Đăng ký đặt lịch xem nhà hay thương lượng & đề xuất giá ngay trên Blue Sky và theo dõi, quản lý thông
+                                    tin này ngay trong mục Cá nhân.
+                                </p>
+                                <div class="button-contact mt-30px">
+                                    <a href="#">
+                                        Liên hệ ngay
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="support-img">
+                                <img src="./images/all-service/service-computer.png" alt="service service computer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="services-support-2 pt-60px pb-60px">
+            <div class="container">
+                <div class="services-support-2-inner">
+                    <div class="row">
+                        <div class="col-md-6 order-md-2">
+                            <div class="support-content text-align-end">
+                                <h1 class="heading-1 mb-25px">Vay mua nhà dễ dàng, nhanh chóng</h1>
+                                <p class="mb-30px">
+                                    Hàng ngàn người đã chọn vay ngân hàng để sớm sở hữu ngôi nhà mơ ước. Bạn sẽ không phải lo lắng khi Blue Sky sẵn sàng tư vấn cho bạn giải pháp vay tối ưu và chọn ngân hàng phù hợp nhất, tương ứng với loại nhà đất và dự án mà bạn chọn. Chuyên viên Blue
+                                    Sky sẽ giải thích cặn kẽ và hỗ trợ bạn miễn phí mọi thủ tục liên quan đến quá trình vay.
+                                </p>
+                                <div class="button-contact">
+                                    <a href="#">
+                                        Liên hệ ngay
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-md-1">
+                            <div class="support-img">
+                                <img src="./images/all-service/girl-card.jpg" alt="service girl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="services-support pt-60px  pb-60px">
+            <div class="container">
+                <div class="services-support-inner">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="support-content ">
+                                <h1 class="heading-1 mb-25px ">Được hỗ trợ miễn phí các thủ tục pháp lý</h1>
+                                <p>
+                                    Không cần phải lo lắng về những rắc rối và phức tạp về pháp lý liên quan đến giao dịch bất động sản. Chuyên viên Blue Sky được đào tạo chuyên nghiệp sẽ hỗ trợ và hướng dẫn bạn mọi thủ tục và quy trình cần thiết để việc hoàn tất giao dịch diễn ra an toàn
+                                    và nhanh chóng.
+                                </p>
+                                <div class="button-contact mt-30px">
+                                    <a href="#">
+                                        Liên hệ ngay
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="support-img">
+                                <img src="./images/all-service/service-policy.jpg" alt="service girl">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="preview pt-60px pb-60px preview-special">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-8 ">
+                        <div class="preview-inner text-center">
+                            <h2 class="heading-2">
+                                Đánh giá của chủ nhà
+                            </h2>
+                            <div class="button-prev">
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="button-next">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </div>
+                            <div class="preview-inner__main">
+                                <div class="preview-slide">
+                                    <p>Tôi đã mua các gói đăng rao nhà đất trên các website bất động sản lớn nhưng không bán được nhà. Tuy nhiên, khi tôi mua gói dịch vụ Môi giới cho người bán của Blue Sky, tôi đã bán được trong vòng một tháng. Tôi đã chọn
+                                        gói Bạch kim và tiết kiệm được khá nhiều chi phí. Đặc biệt, tôi rất thích hình ảnh và mô hình 3D của Blue Sky. Nó giúp tin rao của nhà tôi rất chuyên nghiệp và chỉn chu.</p>
+                                    <img src="./images/all-service/2-pham-huu-nghia.jpg" alt="pic">
+                                    <h5>Phạm Hữu Nghĩa</h5>
+                                    <span>Chủ căn hộ Vista Verde, Quận 2</span>
+                                </div>
+                                <div class="preview-slide">
+                                    <p>Tôi đã mua các gói đăng rao nhà đất trên các website bất động sản lớn nhưng không bán được nhà. Tuy nhiên, khi tôi mua gói dịch vụ Môi giới cho người bán của Blue Sky, tôi đã bán được trong vòng một tháng. Tôi đã chọn
+                                        gói Bạch kim và tiết kiệm được khá nhiều chi phí. Đặc biệt, tôi rất thích hình ảnh và mô hình 3D của Blue Sky. Nó giúp tin rao của nhà tôi rất chuyên nghiệp và chỉn chu.</p>
+                                    <img src="./images/all-service/2-pham-huu-nghia.jpg" alt="pic">
+                                    <h5>Phạm Hữu Nghĩa</h5>
+                                    <span>Chủ căn hộ Vista Verde, Quận 2</span>
+                                </div>
+                                <div class="preview-slide">
+                                    <p>Tôi đã mua các gói đăng rao nhà đất trên các website bất động sản lớn nhưng không bán được nhà. Tuy nhiên, khi tôi mua gói dịch vụ Môi giới cho người bán của Blue Sky, tôi đã bán được trong vòng một tháng. Tôi đã chọn
+                                        gói Bạch kim và tiết kiệm được khá nhiều chi phí. Đặc biệt, tôi rất thích hình ảnh và mô hình 3D của Blue Sky. Nó giúp tin rao của nhà tôi rất chuyên nghiệp và chỉn chu.</p>
+                                    <img src="./images/all-service/2-pham-huu-nghia.jpg" alt="pic">
+                                    <h5>Phạm Hữu Nghĩa</h5>
+                                    <span>Chủ căn hộ Vista Verde, Quận 2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="introduce-bottom pt-60px pb-60px">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-10">
+                        <div class="introduce-bottom__inner text-center">
+                            <div class="introduce-bottom__inner-content mb-30px">
+                                <p>Đăng kê với Blue Sky để bán nhanh gấp 2 lần thị trường và tiết kiệm nhiều hơn với những dịch vụ đi kèm chất lượng cao. Đăng ký thông tin ngay, chúng tôi sẽ liên hệ tư vấn và hẹn gặp sau ít phút!</p>
+                            </div>
+                            <div class="button-contact">
+                                <a href="#">Đăng ký ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FORM -->
+        <div class="modal fade" id="exampleModalCentersbuy" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title heading-5 text-center" id="exampleModalCenterTitle">Mua nhà với Blue Sky</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-6 pr-md-3 mb-md-4 mb-3">
+                                    <div class="form-group">
+                                        <!-- <label for="validationCustom01">HỌ<span>*</span></label> -->
+                                        <input type="text" class="form-control" id="validationCustomho" placeholder="Họ" required>
+                                        <div class="invalid-feedback">
+                                            Please complete this required field.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 pl-md-3 mb-md-4 mb-3 ">
+                                    <div class="form-group">
+                                        <!-- <label for="validationCustom01">TÊN<span>*</span></label> -->
+                                        <input type="text" class="form-control" id="validationCustomten" placeholder="Tên" required>
+                                        <div class="invalid-feedback">
+                                            Please complete this required field.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-md-4 mb-3">
+                                    <div class="form-group">
+                                        <!-- <label for="numberPhone">SỐ ĐIỆN THOẠI<span>*</span></label> -->
+                                        <input type="tel" class="form-control" id="numberPhone" name="phone" pattern="[0-9]" placeholder="Số điện thoại" required>
+                                        <div class="invalid-feedback">
+                                            Please complete this required field.
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-12  mb-md-4 mb-3">
+                                    <div class="form-group">
+                                        <!-- <label for="inputEmail">EMAIL<span>*</span></label> -->
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                                        <div class="invalid-feedback">
+                                            Please complete this required field.
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-12 mb-md-4 mb-3">
+                                    <div class="form-group">
+                                        <!-- <label for="validationCustom01">TÊN<span>*</span></label> -->
+                                        <input type="text" class="form-control" id="diachinhacanban" placeholder="Địa chỉ nhà cần bán" required>
+                                        <div class="invalid-feedback">
+                                            Please complete this required field.
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-12 mb-md-4 mb-3">
+                                    <div class="form-group">
+                                        <!-- <label for="validationCustom01">TÊN<span>*</span></label> -->
+                                        <input type="text" class="form-control" id="giabanmongmuon" placeholder="Gía bán mong muốn" required>
+                                        <div class="invalid-feedback">
+                                            Please complete this required field.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Lời nhắn (nếu có)"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-center mt-md-4 mt-3">
+                        <button type="button" class="btn">
+                        <a href="#">Đăng ký ngay</a> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FORM LOGIN-->
+        <div class="modal fade" id="exampleModalCenterlogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title heading-5 text-center" id="exampleModalCenterTitle">Đăng nhập</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-form mb-md-4 mb-3">
+                            <div class="row">
+                                <div class="col-2 pr-0">
+                                    <div class="modal-form-icon">
+                                        <a href="#">
+                                            <img src="./images/all-service/icon_facebook_blue.svg" alt="icon facebook">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <div class="modal-form-content">
+                                        <a href="#">Đăng nhập với Facebook</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-form modal-form-google mb-md-4 mb-3">
+                            <div class="row">
+                                <div class="col-2 pr-0">
+                                    <div class="modal-form-icon">
+                                        <a href="#">
+                                            <img src="./images/all-service/icon_google_2020.svg" alt="icon facebook">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <div class="modal-form-content">
+                                        <a href="#">Đăng nhập với Google</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-form modal-form-apple">
+                            <div class="row">
+                                <div class="col-2 pr-0">
+                                    <div class="modal-form-icon">
+                                        <a href="#">
+                                            <img src="./images/all-service/icon_apple_black.svg" alt="icon facebook">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <div class="modal-form-content">
+                                        <a href="#">Đăng nhập với Apple</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="span mt-md-5 mt-4 mb-md-5 mb-4">
+                            <span>
+                                Hoặc
+                            </span>
+                        </p>
+                        <form>
+                            <div class="row">
+                                <div class="col-12 mb-md-4 mb-3">
+                                    <div class="form-group">
+                                        <!-- <label for="numberPhone">SỐ ĐIỆN THOẠI<span>*</span></label> -->
+                                        <input type="tel" class="form-control" id="numberPhone" name="phone" pattern="[0-9]" placeholder="Số điện thoại" required>
+                                        <div class="invalid-feedback">
+                                            Please complete this required field.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer justify-content-center mt-md-4 mt-3">
+                        <button type="button" class="btn">
+                        <a href="#">Đăng nhập với số điện thoại</a> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-main">
+        <div class="container">
+            <div class="footer-main__contact">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon-all">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-10 pr-0">
+                                <div class="content-main">
+                                    <h5>
+                                        Hotline miễn phí (24/7)</h5>
+                                    <p>
+                                        <a href="#">
+                                            1800 234 546
+                                        </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon-all">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-10 pr-0 ">
+                                <div class="content-main">
+                                    <h5>
+                                        Khiếu nại, phản hồi (miễn phí)
+
+                                    </h5>
+                                    <p>
+                                        <a href="#">
+                                            1800 234 560
+
+                                        </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon-all">
+                                    <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-10 pr-0 ">
+                                <div class="content-main">
+                                    <h5>
+                                        Bộ phận kinh doanh </h5>
+                                    <p>
+                                        <a href="#">
+                                            Sales@bluesky.vn
+
+                                        </a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon-all">
+                                    <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-10 pr-0 ">
+                                <div class="content-main">
+                                    <h5>
+                                        Phòng dự án </h5>
+                                    <p>
+                                        <a href="#">
+                                            phongduan@blueSky.vn
+
+                                        </a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="icon-all">
+                                    <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-10 pr-0">
+                                <div class="content-main">
+                                    <h5>
+                                        Chăm sóc khách hàng</h5>
+                                    <p>
+                                        <a href="#">
+                                            Support@bluesky.vn
+                                        </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-main__nav">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="part-all">
+                            <div class="part-img">
+                                <img src="./images/final_Logo-BK.jpg" alt="logo">
+                            </div>
+                            <p>ST01, LakeView 1, Đường Ven Hồ Trung Tâm, P. An Khánh, Quận 2, TP. Hồ Chí Minh</p>
+                            <ul class="part-icon nav">
+                                <li class="nav-item">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="part-all">
+                            <span class="text-uppercase">
+                                CÔNG TY
+                            </span>
+                            <ul class="nav part-list">
+                                <li class="nav-item">
+                                    <a href="#">Liên hệ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Tuyển dụng</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Đội ngũ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Sàn giao dịch</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Liên hệ</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="part-all">
+                            <span class="text-uppercase">
+                                DỊCH VỤ
+                            </span>
+                            <ul class="nav part-list">
+                                <li class="nav-item">
+                                    <a href="#">Bán & cho thuê</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Mua với Blue Sky</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Thuê với Blue Sky</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Blue Sky Academy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Blue Sky Agents</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="part-all">
+                            <span class="text-uppercase">
+                                THÔNG TIN
+                            </span>
+                            <ul class="nav part-list">
+                                <li class="nav-item">
+                                    <a href="#">Tin tức thị trường</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Báo cáo & phân tích</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Cập nhật sản phẩm</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Kiến thức môi  giới</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Hướng dẫn sử dụng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="part-all">
+                            <span class="text-uppercase">
+                                ứng dụng
+                            </span>
+                            <ul class="nav part-list">
+                                <li class="nav-item">
+                                    <a href="#">Liên hệ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">Tuyển dụng</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="end">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="end-1">
+                            <h5>Copyright © 2021 - Blue Sky. All Rights Reserved.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="end-2 nav">
+                            <li class="nav-item">
+                                <a href="#">
+                                Chính sách bảo mật 
+                               </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                Điều khoản sử dụng 
+                            </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                Phản hồi
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

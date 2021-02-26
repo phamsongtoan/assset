@@ -1,0 +1,401 @@
+.body-staff-inner-detail {
+    .staff-detail {
+        &__inner {
+            a {
+                font-size: 1.6rem;
+                color: $c-hotline;
+            }
+        }
+        &__main {
+            color: $c-font;
+            &--img {
+                img {
+                    width: 100%;
+                }
+            }
+            &--descreption {
+                p {
+                    color: $c-seemore;
+                    font-size: 1.6rem;
+                }
+                .staff-information {
+                    table {
+                        td {
+                            span {
+                                color: $c-font;
+                                font-size: 1.6rem;
+                                opacity: 0.76;
+                            }
+                            a {
+                                color: $c-font;
+                                opacity: 1!important;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+                .staff-social {
+                    ul {
+                        list-style: none;
+                        li {
+                            a {
+                                color: $c-seemore;
+                                i {
+                                    padding-right: 3rem;
+                                }
+                            }
+                        }
+                    }
+                }
+                .staff-contact {
+                    .button-contact {
+                        a {
+                            color: #fff;
+                        }
+                        &:hover {
+                            a {
+                                color: $c-primary;
+                            }
+                        }
+                    }
+                    .button-transparent {
+                        background: transparent;
+                        border: 1px solid rgba(48, 51, 58, .2);
+                        a {
+                            color: $c-font;
+                        }
+                        &:hover {
+                            background: $c-primary;
+                            a {
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .icon-top-right {
+                        display: inline-block;
+                        border: 1px solid rgba(48, 51, 58, .2);
+                        padding: 1.25rem 0;
+                        border-radius: 3px;
+                        transition: all 0.3s ease;
+                        &:hover {
+                            background: $c-primary;
+                            a {
+                                color: #fff;
+                            }
+                        }
+                        a {
+                            padding: 1.25rem 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .staff-product {
+        background-color: #f3f4f7;
+        &__inner {
+            height: 42rem;
+            width: 100%;
+            min-height: 22rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            p {
+                opacity: 0.5;
+                color: $c-font;
+                font-size: $fs-default;
+                font-weight: bold;
+            }
+        }
+    }
+    .introduce-bottom {
+        &__inner-img {
+            border-radius: 50%;
+            img {
+                width: 15rem;
+                height: 15rem;
+                border-radius: 50%;
+            }
+        }
+        .staff-contact {
+            .button-contact {
+                a {
+                    color: #fff;
+                    font-size: 1.6rem;
+                }
+                &:hover {
+                    a {
+                        color: $c-primary;
+                    }
+                }
+            }
+            .button-transparent {
+                background: transparent;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                a {
+                    font-size: 1.6rem;
+                    color: #fff;
+                }
+                &:hover {
+                    background: $c-primary;
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+            .icon-top-right {
+                display: inline-block;
+                border: 1px solid rgba(48, 51, 58, .2);
+                padding: 1.25rem 0;
+                border-radius: 3px;
+                transition: all 0.3s ease;
+                &:hover {
+                    background: $c-primary;
+                    a {
+                        color: #fff;
+                    }
+                }
+                a {
+                    padding: 1.25rem 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+.modal {
+    z-index: 1050!important;
+    .modal-dialog {
+        width: 52rem;
+        max-width: 100%;
+        height: auto!important;
+        .modal-content {
+            color: $c-font;
+            .modal-header {
+                position: relative;
+                background-color: #f2f2f2;
+                padding: 2rem 0;
+                .modal-title {
+                    margin: 0 auto;
+                    font-size: 2rem;
+                }
+                .close {
+                    position: absolute;
+                    top: 2%;
+                    right: 1%;
+                    span {
+                        font-size: 2.4rem;
+                    }
+                }
+            }
+        }
+        .modal-body {
+            padding: 3rem 4rem 0!important;
+            .form-group {
+                label {
+                    span {
+                        color: red;
+                    }
+                }
+                .form-control {
+                    font-size: 1.6rem;
+                    padding: 1.75rem 1rem;
+                    &:focus {
+                        border-color: #000!important;
+                    }
+                    &::placeholder {
+                        font-size: $fs-primary;
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+        .modal-footer {
+            padding: 0 4rem;
+            padding-bottom: 5rem;
+            .btn {
+                width: 100%;
+                background: #303339;
+                padding: 1.5rem 0;
+                &:hover {
+                    background: $c-primary;
+                }
+                a {
+                    color: #fff;
+                    font-size: $fs-primary;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .body-staff-inner-detail {
+        .staff-detail {
+            margin-top: 8rem;
+            &__main {
+                &--img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        width: 50%;
+                        border-radius: 50%;
+                    }
+                }
+                &--descreption {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        color: $c-seemore;
+                        font-size: 1.6rem;
+                    }
+                    .staff-information {
+                        table {
+                            td {
+                                span {
+                                    color: $c-font;
+                                    font-size: 1.6rem;
+                                    opacity: 0.76;
+                                }
+                                a {
+                                    color: $c-font;
+                                    opacity: 1!important;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                    .staff-social {
+                        ul {
+                            list-style: none;
+                            li {
+                                a {
+                                    color: $c-seemore;
+                                    i {
+                                        padding-right: 3rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .staff-contact {
+                        .button-contact {
+                            a {
+                                color: #fff;
+                            }
+                            &:hover {
+                                a {
+                                    color: $c-primary;
+                                }
+                            }
+                        }
+                        .button-transparent {
+                            background: transparent;
+                            border: 1px solid rgba(48, 51, 58, .2);
+                            a {
+                                color: $c-font;
+                            }
+                            &:hover {
+                                background: $c-primary;
+                                a {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                        .icon-top-right {
+                            display: inline-block;
+                            border: 1px solid rgba(48, 51, 58, .2);
+                            padding: 1.25rem 0;
+                            border-radius: 3px;
+                            transition: all 0.3s ease;
+                            &:hover {
+                                background: $c-primary;
+                                a {
+                                    color: #fff;
+                                }
+                            }
+                            a {
+                                padding: 1.25rem 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .staff-product {
+            background-color: #f3f4f7;
+            &__inner {
+                height: 42rem;
+                width: 100%;
+                min-height: 22rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                p {
+                    opacity: 0.5;
+                    color: $c-font;
+                    font-size: $fs-default;
+                    font-weight: bold;
+                }
+            }
+        }
+        .introduce-bottom {
+            &__inner-img {
+                border-radius: 50%;
+                img {
+                    width: 15rem;
+                    height: 15rem;
+                    border-radius: 50%;
+                }
+            }
+            .staff-contact {
+                .button-contact {
+                    a {
+                        color: #fff;
+                        font-size: 1.6rem;
+                    }
+                    &:hover {
+                        a {
+                            color: $c-primary;
+                        }
+                    }
+                }
+                .button-transparent {
+                    background: transparent;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    a {
+                        font-size: 1.6rem;
+                        color: #fff;
+                    }
+                    &:hover {
+                        background: $c-primary;
+                        a {
+                            color: #fff;
+                        }
+                    }
+                }
+                .icon-top-right {
+                    display: inline-block;
+                    border: 1px solid rgba(48, 51, 58, .2);
+                    padding: 1.25rem 0;
+                    border-radius: 3px;
+                    transition: all 0.3s ease;
+                    &:hover {
+                        background: $c-primary;
+                        a {
+                            color: #fff;
+                        }
+                    }
+                    a {
+                        padding: 1.25rem 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

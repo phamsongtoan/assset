@@ -1,0 +1,161 @@
+.mt-25px {
+    margin-top: 2.5rem;
+}
+
+.mb-25px {
+    margin-bottom: 2.5rem;
+}
+
+.mb-30px {
+    margin-bottom: 3rem;
+}
+
+.mt-30px {
+    margin-top: 3rem;
+}
+
+.pr-30px {
+    padding-right: 3rem;
+}
+
+.pl-30px {
+    padding-left: 3rem;
+}
+
+.mt-60px {
+    margin-top: 6rem;
+}
+
+.mb-60px {
+    margin-bottom: 6rem;
+}
+
+.pt-40px {
+    padding-top: 4rem;
+}
+
+.pb-40px {
+    padding-bottom: 4rem;
+}
+
+.mt-40px {
+    margin-top: 4rem;
+}
+
+.mb-40px {
+    margin-bottom: 4rem;
+}
+
+.pt-45px {
+    padding-top: 4.5rem;
+}
+
+.pb-45px {
+    padding-bottom: 4.5rem;
+}
+
+.pl-45px {
+    padding-left: 4.5rem;
+}
+
+.pt-60px {
+    padding-top: 6rem;
+}
+
+.pb-60px {
+    padding-bottom: 6rem;
+}
+
+@media (max-width: 767px) {
+    .mt-25px {
+        margin-top: 1.5rem;
+    }
+    .mb-25px {
+        margin-bottom: 1.5rem;
+    }
+    .mb-30px {
+        margin-bottom: 1.5rem;
+    }
+    .mt-30px {
+        margin-top: 1.5rem;
+    }
+    .pr-30px {
+        padding-right: 1.5rem;
+    }
+    .pl-30px {
+        padding-left: 1.5rem;
+    }
+    .mt-60px {
+        margin-top: 3rem;
+    }
+    .mb-60px {
+        margin-bottom: 3rem;
+    }
+    .pt-40px {
+        padding-top: 2rem;
+    }
+    .pb-40px {
+        padding-bottom: 2rem;
+    }
+    .mt-40px {
+        margin-top: 2rem;
+    }
+    .mb-40px {
+        margin-bottom: 2rem;
+    }
+    .pt-45px {
+        padding-top: 2rem;
+    }
+    .pb-45px {
+        padding-bottom: 2rem;
+    }
+    .pt-60px {
+        padding-top: 3rem;
+    }
+    .pb-60px {
+        padding-bottom: 3rem;
+    }
+    .pl-45px {
+        padding-left: 0;
+    }
+}
+
+//RESPONSIVE
+
+/* //1200px/16 */
+
+@media only screen and (max-width: 75em) {}
+
+@media (min-width: 75em) {}
+
+
+/* //900px/16 */
+
+@media only screen and (max-width: 56.25em) {}
+
+@media (min-width: 56.25em) {}
+
+
+/* 768 */
+
+@media only screen and (max-width: 48em) {}
+
+@media (min-width: 48em) {}
+
+
+/* 576 */
+
+@media only screen and (max-width: 36em) {}
+
+
+/*375 px*/
+
+@media only screen and (max-width: 23.4375em) {}
+
+//REPONSIVE IPAD
+@media (min-width: 48em) and (max-width: 64em) {
+    /* CSS */
+}
+
+//REPONSIVE IPAD PRO
+@media (min-width: 64em) and (max-width: 85.375em) {}

@@ -1,0 +1,120 @@
+.modal {
+    z-index: 1050!important;
+    .modal-dialog {
+        width: 60rem;
+        max-width: 100%;
+        height: auto!important;
+        .modal-content {
+            color: $c-font;
+            .modal-header {
+                background-color: #f2f2f2;
+                .modal-title {
+                    font-size: $fs-default;
+                }
+                .close {
+                    &:hover {
+                        span {
+                            color: $c-primary;
+                        }
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                    span {
+                        font-size: 2.4rem;
+                    }
+                }
+            }
+        }
+        .modal-body {
+            .form-group {
+                label {
+                    span {
+                        color: red;
+                    }
+                }
+                .form-control {
+                    font-size: 1.6rem;
+                    padding: 1.75rem 1rem;
+                    &:focus {
+                        border-color: #000!important;
+                    }
+                    &::placeholder {
+                        font-size: $fs-primary;
+                        opacity: 0.5;
+                    }
+                }
+            }
+            .modal-form {
+                box-shadow: 0 2px 2px 0 rgba(#000, 0.7);
+                background-color: #3c589c;
+                &-icon {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 2px;
+                    height: 4.6rem;
+                    width: 4.6rem;
+                    background: #Fff;
+                    a {
+                        img {
+                            width: 2rem;
+                        }
+                    }
+                }
+                &-content {
+                    border-radius: 2px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                    cursor: pointer;
+                    a {
+                        font-size: 1.6rem;
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .modal-form-google {
+                background-color: #4a90e2;
+                color: #fff;
+            }
+            .modal-form-apple {
+                background: #000;
+            }
+            .span {
+                width: 100%;
+                border-bottom: solid 1px rgba(48, 51, 58, .15);
+                text-align: center;
+                line-height: .1px;
+                span {
+                    font-size: $fs-primary;
+                    color: $c-font-down;
+                    padding: 0 6px;
+                    background: #fff;
+                }
+            }
+        }
+        .modal-footer {
+            border-top: none;
+            display: flex;
+            flex-direction: column;
+            span {
+                font-weight: bold;
+            }
+            .btn {
+                width: 100%;
+                background: #303339;
+                padding: 1.5rem 0;
+                &:hover {
+                    background: $c-primary;
+                }
+                a {
+                    color: #fff;
+                    font-size: $fs-default;
+                }
+            }
+        }
+    }
+}

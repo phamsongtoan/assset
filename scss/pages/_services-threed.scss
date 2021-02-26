@@ -1,0 +1,73 @@
+.body-services-threed {
+    .services-threed {
+        background: #fff!important;
+        .threed-inner {
+            color: $c-font;
+            &__left {
+                color: $c-font;
+                h2 {
+                    color: $c-font!important;
+                }
+                p {
+                    font-size: 1.6rem;
+                    color: $c-font;
+                    line-height: 2.8rem;
+                }
+                .seemore-project {
+                    a {
+                        span {
+                            color: $c-primary!important;
+                        }
+                    }
+                }
+            }
+            &__right {
+                height: 100%;
+                position: relative;
+                width: 100%;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+                &--icon {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    i {
+                        font-size: 5rem;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .video-demo {
+        .video-demo__inner {
+            &:hover {
+                .video-demo__inner--bg {
+                    position: relative;
+                    &-icon {
+                        transform: translate(-50%, -50%);
+                        opacity: 1;
+                    }
+                }
+            }
+            .video-demo__inner--bg {
+                position: relative;
+                &-icon {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-30%, -50%);
+                    opacity: 0;
+                    transition: all 0.3s ease;
+                    i {
+                        font-size: 5rem;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

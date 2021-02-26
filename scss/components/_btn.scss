@@ -1,0 +1,154 @@
+// //BTN
+.button-red {
+    transition: all 0.4s ease;
+    text-align: center;
+    a {
+        background: $c-primary;
+        color: #fff;
+        padding: 2rem 2rem;
+        letter-spacing: 0.3rem;
+        transition: all 0.4s ease;
+    }
+    &:hover {
+        a {
+            color: $c-primary;
+            background: #fff;
+            text-decoration: none;
+        }
+    }
+    &:focus a {
+        outline: none;
+    }
+}
+
+.button-seemore {
+    display: inline-block;
+    padding: 1rem 4rem;
+    border: 1px solid $c-default;
+    cursor: pointer;
+    a {
+        font-weight: bold;
+        font-size: $fs-default;
+        letter-spacing: 0.1rem;
+        color: $c-font;
+        transition: all 0.4s ease;
+    }
+    &:hover {
+        background: $c-font;
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    &:focus a {
+        outline: none;
+    }
+}
+
+.button-contact {
+    display: inline-block;
+    padding: 1.25rem 3.5rem;
+    border-radius: 3px;
+    background: $c-primary;
+    cursor: pointer;
+    a {
+        font-weight: bold;
+        font-size: $fs-default;
+        letter-spacing: 0.1rem;
+        color: #fff;
+        transition: all 0.4s ease;
+    }
+    &:hover {
+        background: #fff;
+        a {
+            color: $c-primary;
+            text-decoration: none;
+        }
+    }
+    &:focus a {
+        outline: none;
+    }
+}
+
+.button-save {
+    display: inline-flex;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    background: $c-primary;
+    cursor: pointer;
+    gap: 0.5rem;
+    align-items: center;
+    i {
+        color: #fff;
+        font-size: $c-primary;
+    }
+    a {
+        font-weight: bold;
+        font-size: $c-primary;
+        color: #fff;
+        transition: all 0.4s ease;
+    }
+    &:hover {
+        background: #fff;
+        i {
+            color: $c-primary;
+        }
+        a {
+            color: $c-primary;
+            text-decoration: none;
+        }
+    }
+    &:focus a {
+        outline: none;
+    }
+}
+
+.seemore-project {
+    a {
+        span {
+            font-size: $fs-default!important;
+            color: $c-seemore;
+        }
+    }
+}
+
+.button-seeall {
+    padding: 1rem 0 2rem 0;
+    font-weight: bold;
+    &:hover {
+        a {
+            opacity: 0.8;
+        }
+    }
+    a {
+        font-size: 1.6rem;
+        color: $c-font;
+        border-bottom: 1px solid #000;
+    }
+}
+
+// //BUTTON
+// //DOT
+// // .slick-dots li button:before {
+// //     position: absolute;
+// //     top: 0;
+// //     left: 0;
+// //     width: 1rem;
+// //     height: 1rem;
+// //     content: '';
+// //     text-align: center;
+// //     opacity: 1;
+// //     background: $c-primary;
+// //     border: 1px solid #fff;
+// //     border-radius: 50%;
+// //     -webkit-font-smoothing: antialiased;
+// //     -moz-osx-font-smoothing: grayscale;
+// // }
+// // .slick-dots li.slick-active button:before {
+// //     top: -20%;
+// //     opacity: 1;
+// //     height: 2rem;
+// //     width: 2rem;
+// //     border: none;
+// //     background: url(/images/buttonactiveblue.png) no-repeat center center/contain;
+// // }

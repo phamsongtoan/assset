@@ -1,0 +1,105 @@
+.project-document {
+    padding: 2rem 0;
+    &__inner {
+        &--left {
+            .logo-header {
+                display: flex;
+                align-items: center;
+                .logo-blue {
+                    margin-right: 1rem;
+                    display: flex;
+                    justify-content: start;
+                    min-height: 4rem;
+                    width: 6rem;
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .part-img {
+                    display: flex;
+                    justify-content: start;
+                    min-height: 4rem;
+                    width: 8rem;
+                    height: 5rem;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .heading-2 {
+                color: $c-font;
+                font-weight: 500;
+                letter-spacing: 0;
+            }
+            h5 {
+                color: $c-font-down;
+                font-size: 1.6rem;
+                font-weight: 300;
+                span {
+                    a {
+                        color: $c-font;
+                        font-weight: bold;
+                        font-size: 2rem;
+                    }
+                }
+            }
+            .banner-document {
+                text-align: center;
+                img {
+                    width: 35rem;
+                }
+            }
+            .note-document {
+                color: $c-font;
+                h5 {
+                    color: $c-font;
+                }
+                ul {
+                    padding-left: 4rem;
+                    li {
+                        color: $c-font;
+                        p {
+                            margin: 0;
+                            color: $c-font;
+                        }
+                    }
+                }
+            }
+        }
+        &--right {
+            padding: 4rem;
+            background-color: #3e71ae;
+            text-align: center;
+            color: #fff;
+            .heading-3 {
+                color: #fff;
+                font-size: 2.4rem;
+            }
+            p {
+                span {
+                    font-size: 1.6rem;
+                }
+            }
+            form {
+                .form-group {
+                    .form-control {
+                        font-size: 1.6rem;
+                        padding: 1.75rem 1rem;
+                        border-radius: 4px;
+                        background-color: #fff;
+                        box-shadow: 0 1px 2px #000;
+                        &::placeholder {
+                            font-size: 1.6rem;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+            .button-contact {
+                box-shadow: 0 1px 2px #000;
+            }
+        }
+    }
+}

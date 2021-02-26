@@ -1,0 +1,92 @@
+.services-find {
+    background: #f4f5f9;
+    &__inner {
+        text-align: center;
+        h2 {
+            color: $c-font;
+        }
+        &--team {
+            margin: 2.5rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            h5 {
+                font-size: 1.6rem;
+                color: $c-font;
+            }
+        }
+        &--form {
+            max-width: 55.5rem;
+            margin: 0 auto;
+            .form {
+                height: 5rem;
+                width: 100%;
+                .input-group {
+                    height: 100%;
+                    width: 100%;
+                    border: none;
+                    &-prepend {
+                        .input-group-text {
+                            background: #fff;
+                            border: none;
+                            padding: 0 2rem;
+                            i {
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+                    .form-control {
+                        height: 100%;
+                        border: none;
+                        &::placeholder {
+                            font-size: $fs-primary;
+                            color: $c-font-down;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// .services-support{
+//     &-inner{
+//         .support-content{
+//         }
+//     }
+// }
+.services-support-all {
+    &__inner {
+        text-align: center;
+        h1 {
+            font-size: 3rem;
+        }
+        p {
+            margin: 0 auto;
+            font-size: 1.6rem;
+            color: $c-font;
+            line-height: 3rem;
+            max-width: 75rem;
+            opacity: 0.9;
+        }
+        &--option {
+            .support-option {
+                padding: 0 2rem;
+                img {
+                    width: 100%;
+                }
+                h5 {
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                }
+                p {
+                    color: $c-font;
+                    font-size: $fs-primary;
+                    line-height: 2.5rem;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

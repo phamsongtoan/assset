@@ -1,0 +1,96 @@
+.pagination {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    .page-item:first-child {
+        .page-link {
+            &::after {
+                display: none;
+            }
+        }
+    }
+    .page-item:last-child {
+        .page-link {
+            &::after {
+                display: none;
+            }
+        }
+    }
+    .page-item {
+        display: flex;
+        align-items: center;
+        .page-link {
+            position: relative;
+            font-size: $fs-default;
+            color: $c-font;
+            margin-bottom: 0;
+            &:hover {
+                color: #fff;
+            }
+            &:hover::after {
+                background: rgba(48, 51, 58, .8);
+                opacity: 1;
+            }
+            .button-prev {
+                color: $c-seemore;
+            }
+            .button-next {
+                color: $c-seemore;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                font-size: $fs-default;
+                height: 4rem;
+                width: 4rem;
+                left: 50%;
+                top: 50%;
+                border-radius: 2px;
+                transform: translate(-50%, -50%);
+                z-index: -1;
+                opacity: 0;
+                transition: all 0.3 ease;
+            }
+        }
+    }
+    .active {
+        .page-link {
+            color: #fff!important;
+            &::after {
+                content: '';
+                position: absolute;
+                font-size: $fs-default;
+                height: 4rem;
+                width: 4rem;
+                left: 50%;
+                top: 50%;
+                background: rgba(48, 51, 58, .8);
+                border-radius: 2px;
+                transform: translate(-50%, -50%);
+                opacity: 1!important;
+                z-index: -1;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .pagination {
+        .page-item {
+            .page-link {
+                &::after {
+                    height: 2rem;
+                    width: 2rem;
+                }
+            }
+        }
+        .active {
+            .page-link {
+                &::after {
+                    height: 3rem;
+                    width: 3rem;
+                }
+            }
+        }
+    }
+}

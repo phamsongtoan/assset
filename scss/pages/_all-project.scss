@@ -1,0 +1,157 @@
+.body-all-project {
+    overflow-x: hidden;
+    .projects-introduc {
+        &__inner {
+            p {
+                margin: 0;
+                font-size: $fs-default;
+                color: $c-font;
+                line-height: 30px;
+                margin: 0 auto;
+                width: 85rem;
+            }
+            .button-contact {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+            .modal {
+                z-index: 1050!important;
+                .modal-dialog {
+                    width: 36rem;
+                    max-width: 100%;
+                    height: auto!important;
+                    .modal-content {
+                        color: $c-font;
+                        .modal-header {
+                            padding: 2rem 2rem;
+                            background-color: #f2f2f2;
+                            .modal-title {
+                                font-size: $fs-default;
+                            }
+                            .close {
+                                span {
+                                    font-size: 2.4rem;
+                                }
+                            }
+                        }
+                    }
+                    .modal-body {
+                        padding: 2rem;
+                        .form-group {
+                            label {
+                                span {
+                                    color: red;
+                                }
+                            }
+                            .form-control {
+                                font-size: 1.6rem;
+                                padding: 1.75rem 1rem;
+                                background-color: #f2f2f2;
+                                box-shadow: 0 0 3px #dedede;
+                                &:focus {
+                                    border-color: #000!important;
+                                }
+                                &::placeholder {
+                                    font-size: $fs-primary;
+                                    opacity: 0.5;
+                                }
+                            }
+                        }
+                    }
+                    .modal-footer {
+                        .btn {
+                            width: 100%;
+                            background: #303339;
+                            padding: 1.5rem 0;
+                            &:hover {
+                                background: $c-primary;
+                            }
+                            a {
+                                color: #fff;
+                                font-size: $fs-primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .projects-main {
+        background: #f4f5f9;
+        &__inner {
+            border-top: 3px solid $c-font;
+            .projects-img {
+                height: 100%;
+                transition: all 0.4s ease;
+                &:hover {
+                    opacity: 0.9;
+                }
+                img {
+                    width: 100%;
+                    max-width: 100%;
+                    height: 100%;
+                    max-height: 100%;
+                }
+            }
+            .projects-content {
+                padding: 3rem 4rem;
+                background-color: #fff;
+                color: $c-font;
+                .sub-title {
+                    a {
+                        font-size: 1.6rem;
+                    }
+                }
+                .description {
+                    display: flex;
+                    align-items: center;
+                    gap: 3rem;
+                    &-1 {
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                        h5 {
+                            font-size: 1.6rem;
+                            margin: 0;
+                            font-weight: 300;
+                        }
+                    }
+                }
+                p {
+                    line-height: 2.5rem;
+                    font-size: 1.6rem;
+                }
+                .seemore-project {
+                    span {
+                        font-size: 1.6rem!important;
+                        font-weight: bold;
+                    }
+                    a {
+                        position: relative;
+                        &:hover::after {
+                            width: 100%;
+                        }
+                        &::after {
+                            position: absolute;
+                            content: '';
+                            bottom: 0;
+                            left: 50%;
+                            height: 2.5px;
+                            width: 0;
+                            background: $c-default;
+                            transform: translateX(-50%);
+                            transition: all 0.4s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .projects-introduc {
+        margin-top: 5rem;
+    }
+}
